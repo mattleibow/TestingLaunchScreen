@@ -15,6 +15,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+//    NSString* p = [NSHomeDirectory() stringByAppendingString: @"/Library/SplashBoard"];
+//    BOOL s = [[NSFileManager defaultManager] removeItemAtPath: p error: nil];
+    
     // Override point for customization after application launch.
     return YES;
 }
